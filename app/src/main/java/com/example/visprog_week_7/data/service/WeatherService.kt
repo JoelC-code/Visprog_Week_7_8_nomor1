@@ -11,7 +11,7 @@ import io.ktor.serialization.kotlinx.json.*
 
 object WeatherService {
     //For API key from openweather and the base link for it
-    private const val API_KEY = "****" // API Key for openweathermap.org here
+    private const val API_KEY = "98635c26076df75bb38cb374c0f3bceb" // API Key for openweathermap.org here
     private const val BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
     //in here, we call the browser to connect to my app
