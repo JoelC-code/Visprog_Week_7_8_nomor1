@@ -6,6 +6,6 @@ import kotlinx.serialization.Serializable
 data class Main(
     val temp: Double,
     val humidity: Int,
-    val feelslike: Double,
-    val pressure: Int
+    val feels_like: Double,
+    val pressure: Int,
 )

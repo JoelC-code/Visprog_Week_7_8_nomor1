@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Sys(
-    val countryCode: String,
+    val country: String,
     val sunrise: Long,
     val sunset: Long
 )
